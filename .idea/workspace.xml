@@ -4,9 +4,9 @@
     <list default="true" id="272c36c1-a70b-4c36-90ab-afb5c7d5099f" name="Default" comment="" />
     <ignored path="AngularPresentation.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/index.html" changelist="272c36c1-a70b-4c36-90ab-afb5c7d5099f" time="1389730662658" ignored="false" />
+    <file path="/index.html" changelist="272c36c1-a70b-4c36-90ab-afb5c7d5099f" time="1389734303602" ignored="false" />
     <file path="$PROJECT_DIR$/../AngularTest/index.html" changelist="272c36c1-a70b-4c36-90ab-afb5c7d5099f" time="1389730493009" ignored="false" />
-    <file path="/main.css" changelist="272c36c1-a70b-4c36-90ab-afb5c7d5099f" time="1389730863071" ignored="false" />
+    <file path="/main.css" changelist="272c36c1-a70b-4c36-90ab-afb5c7d5099f" time="1389732881123" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,10 +67,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="13" selection-start="182" selection-end="182" vertical-scroll-proportion="-5.8846154">
+            <state line="12" column="0" selection-start="274" selection-end="274" vertical-scroll-proportion="0.24142012">
               <folding />
             </state>
           </provider>
@@ -79,16 +79,16 @@
       <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="0" column="40" selection-start="0" selection-end="40" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="14" selection-start="89" selection-end="89" vertical-scroll-proportion="0.116838485">
+            <state line="5" column="2" selection-start="70" selection-end="70" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -104,8 +104,9 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/css/main.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -404,7 +405,7 @@
     <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
     <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
-    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="false" />
     <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
     <option name="LIMIT_HISTORY" value="true" />
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
@@ -433,23 +434,23 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="182" selection-end="182" vertical-scroll-proportion="-5.8846154">
+        <state line="5" column="2" selection-start="70" selection-end="70" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="0" column="40" selection-start="0" selection-end="40" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="14" selection-start="89" selection-end="89" vertical-scroll-proportion="0.116838485">
+        <state line="12" column="0" selection-start="274" selection-end="274" vertical-scroll-proportion="0.24142012">
           <folding />
         </state>
       </provider>

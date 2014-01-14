@@ -3,11 +3,16 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/main.css">
     <script src="js/vendor/angular.js"></script>
+    <script src="js/main.js"></script>
 </head>
-<body>
+<body ng-app="myApp">
 
 <div>
-    <h2>Välkommen!</h2>
+    <h2>{{ 'Välkommen' + ' ' + 'hit!' + 1 }}</h2>
+
+    {{ 2+2 }}
+
+    {{ [2,1].sort() }}
 </div>
 
 </body>
