@@ -7,12 +7,21 @@
 </head>
 <body ng-app="myApp">
 
-<div>
+<div class="root">
     <h2>{{ 'Välkommen' + ' ' + 'hit!' + 1 }}</h2>
 
-    {{ 2+2 }}
+    <div>
+        {{ 2+2 }}
 
-    {{ [2,1].sort() }}
+        {{ [2,1].sort() }}
+
+    </div>
+
+    <div ng-include src="'myTemplate.html'"></div>
+
+
+</div>
+
 </div>
 
 </body>

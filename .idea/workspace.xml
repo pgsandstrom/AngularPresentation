@@ -4,13 +4,16 @@
     <list default="true" id="272c36c1-a70b-4c36-90ab-afb5c7d5099f" name="Default" comment="" />
     <ignored path="AngularPresentation.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/index.html" changelist="272c36c1-a70b-4c36-90ab-afb5c7d5099f" time="1390138899607" ignored="false" />
+    <file path="/index.html" changelist="272c36c1-a70b-4c36-90ab-afb5c7d5099f" time="1390145403856" ignored="false" />
     <file path="$PROJECT_DIR$/../AngularTest/index.html" changelist="272c36c1-a70b-4c36-90ab-afb5c7d5099f" time="1389730493009" ignored="false" />
-    <file path="/main.css" changelist="272c36c1-a70b-4c36-90ab-afb5c7d5099f" time="1389732881123" ignored="false" />
-    <file path="/a.dummy" changelist="272c36c1-a70b-4c36-90ab-afb5c7d5099f" time="1389899289355" ignored="false" />
+    <file path="/main.css" changelist="272c36c1-a70b-4c36-90ab-afb5c7d5099f" time="1390145329655" ignored="false" />
+    <file path="/a.dummy" changelist="272c36c1-a70b-4c36-90ab-afb5c7d5099f" time="1390145407953" ignored="false" />
     <file path="$PROJECT_DIR$/../AngularPresentation2/views/layout.jade" changelist="272c36c1-a70b-4c36-90ab-afb5c7d5099f" time="1389899312503" ignored="false" />
     <file path="$PROJECT_DIR$/../AngularPresentation2/app.js" changelist="272c36c1-a70b-4c36-90ab-afb5c7d5099f" time="1389899424618" ignored="false" />
     <file path="/shoppingcart.js" changelist="272c36c1-a70b-4c36-90ab-afb5c7d5099f" time="1390139357661" ignored="false" />
+    <file path="/myTemplate.html" changelist="272c36c1-a70b-4c36-90ab-afb5c7d5099f" time="1390145144674" ignored="false" />
+    <file path="/Dummy.txt" changelist="272c36c1-a70b-4c36-90ab-afb5c7d5099f" time="1390145219369" ignored="false" />
+    <file path="$PROJECT_DIR$/../PloxWorld/index.html" changelist="272c36c1-a70b-4c36-90ab-afb5c7d5099f" time="1390145406165" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,30 +74,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/examples/shoppingcart/index.html">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="37" selection-start="956" selection-end="956" vertical-scroll-proportion="-18.961538">
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bootstrap.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/examples/shoppingcart/css/bootstrap.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="shoppingcart.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/examples/shoppingcart/js/shoppingcart.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="58" selection-start="962" selection-end="962" vertical-scroll-proportion="0.31844217">
+            <state line="20" column="0" selection-start="407" selection-end="407" vertical-scroll-proportion="0.40236688">
               <folding />
             </state>
           </provider>
@@ -110,15 +93,16 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/js/main.js" />
-        <option value="$PROJECT_DIR$/css/main.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/examples/shop-jquery/js/jquery-1.10.2.min.js" />
         <option value="$PROJECT_DIR$/examples/shop-jquery/css/bootstrap.min.css" />
         <option value="$PROJECT_DIR$/examples/shop-jquery/index.html" />
         <option value="$PROJECT_DIR$/examples/shop-jquery/js/shoppingcart.js" />
         <option value="$PROJECT_DIR$/examples/shoppingcart/index.html" />
         <option value="$PROJECT_DIR$/examples/shoppingcart/js/shoppingcart.js" />
+        <option value="$PROJECT_DIR$/js/main.js" />
+        <option value="$PROJECT_DIR$/css/main.css" />
+        <option value="$PROJECT_DIR$/myTemplate.html" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -301,7 +285,8 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="options.lastSelected" value="editor.preferences.AngularJS" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../AngularTest" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PloxWorld" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
@@ -405,7 +390,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -497,15 +482,6 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/examples/shoppingcart/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="44" selection-start="2055" selection-end="2055" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/shoppingcart/index.html">
-      <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -547,23 +523,6 @@
         <state line="5" column="2" selection-start="70" selection-end="70" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="26" selection-start="26" selection-end="26" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="7" selection-start="193" selection-end="193" vertical-scroll-proportion="0.12274368">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="17" selection-start="90" selection-end="90" vertical-scroll-proportion="0.119019836" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/examples/shoppingcart/js/vendor/angular.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="15" selection-start="99" selection-end="99" vertical-scroll-proportion="0.059302326">
@@ -578,15 +537,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/shoppingcart/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="37" selection-start="956" selection-end="956" vertical-scroll-proportion="-18.961538">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/examples/shoppingcart/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -596,7 +546,44 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/examples/shoppingcart/js/shoppingcart.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="58" selection-start="962" selection-end="962" vertical-scroll-proportion="0.31844217">
+        <state line="33" column="0" selection-start="1169" selection-end="1169" vertical-scroll-proportion="0.49483353">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="42" selection-end="42" vertical-scroll-proportion="0.039035592">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="5" selection-start="125" selection-end="125" vertical-scroll-proportion="0.17566016">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myTemplate.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="16" selection-start="70" selection-end="70" vertical-scroll-proportion="0.020118343">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/shoppingcart/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="37" selection-start="956" selection-end="956" vertical-scroll-proportion="0.58343196">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="0" selection-start="407" selection-end="407" vertical-scroll-proportion="0.40236688">
           <folding />
         </state>
       </provider>
