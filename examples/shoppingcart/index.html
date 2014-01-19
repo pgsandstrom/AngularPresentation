@@ -4,7 +4,9 @@
     <title>Shoppingcart</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap-theme.css" rel="stylesheet">
+
 
 </head>
 <body ng-app="shoppingcartApp">
@@ -13,11 +15,7 @@
     <div class="container">
         <div class="row">
             <div style="height: 60px;">
-                <!--
-                  TB3 ".hide" har important på sig. jQuery.fn.show() fungerar då inte.
-                  ett alternativ är att använda "jQuery.fn.css({ display: 'block !important '});" istället.
-                -->
-                <div id="message" style="display:none;" class="alert alert-success"></div>
+                <alert ng-repeat="alert in alerts" type="alert.type" close="closeAlert($index)">{{alert.msg}}</alert>
             </div>
         </div>
 
@@ -87,6 +85,7 @@
 </body>
 
 <script src="js/vendor/angular.js"></script>
+<script src="js/vendor/ui-bootstrap-tpls-0.10.0.js"></script>
 <script src="js/shoppingcart.js"></script>
 <script>
     // Beroende på vilket script som laddats in...

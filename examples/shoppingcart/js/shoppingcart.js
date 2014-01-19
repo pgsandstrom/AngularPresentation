@@ -1,4 +1,4 @@
-var shoppingcartApp = angular.module('shoppingcartApp', []);
+var shoppingcartApp = angular.module('shoppingcartApp', ['ui.bootstrap']);
 
 shoppingcartApp.controller('shoppingcartController', function FirstCtrl($scope, $http) {
 
@@ -11,16 +11,18 @@ shoppingcartApp.controller('shoppingcartController', function FirstCtrl($scope, 
     };
 
     $scope.buy = function (id) {
-        $http.post('http://localhost:8080/cart/store/' + id).success(function (data) {
+        $http.post('http://localhost:8080/cart/store/' + id).success(function () {
             $scope.updateTotal();
             $scope.updateCart();
+            $scope.addAlert("Lagt till id " + id, 'success');
         });
     };
 
     $scope.remove = function (id) {
-        $http.post('http://localhost:8080/cart/remove/' + id).success(function (data) {
+        $http.post('http://localhost:8080/cart/remove/' + id).success(function () {
             $scope.updateTotal();
             $scope.updateCart();
+            $scope.addAlert("Tagit bort id " + id, 'danger');
         });
     };
 
@@ -36,9 +38,23 @@ shoppingcartApp.controller('shoppingcartController', function FirstCtrl($scope, 
         });
     };
 
+    $scope.addAlert = function(msg, type) {
+        $scope.clearAlerts();
+        $scope.alerts.push({msg: msg, type: type});
+    };
+
+    $scope.closeAlert = function(index) {
+        $scope.alerts.splice(index, 1);
+    };
+
+    $scope.clearAlerts = function() {
+        $scope.alerts = [];
+    };
+
     //init all data:
     $scope.getProducts();
     $scope.updateTotal();
     $scope.updateCart();
+    $scope.alerts = [];
 
 });
