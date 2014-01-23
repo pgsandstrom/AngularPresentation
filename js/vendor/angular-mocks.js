@@ -248,7 +248,7 @@ angular.mock.$ExceptionHandlerProvider = function() {
    *   - `log`: Sometimes it is desirable to test that an error is thrown, for this case the `log`
    *            mode stores an array of errors in `$exceptionHandler.errors`, to allow later
    *            assertion of them. See {@link ngMock.$log#assertEmpty assertEmpty()} and
-   *            {@link ngMock.$log#reset reset()}
+   *            {@link ngMock.$log#load load()}
    */
   this.mode = function(mode) {
     switch(mode) {
@@ -324,13 +324,13 @@ angular.mock.$LogProvider = function() {
 
     /**
      * @ngdoc method
-     * @name ngMock.$log#reset
+     * @name ngMock.$log#load
      * @methodOf ngMock.$log
      *
      * @description
      * Reset all of the logging arrays to empty.
      */
-    $log.reset = function () {
+    $log.load = function () {
       /**
        * @ngdoc property
        * @name ngMock.$log#log.logs
@@ -435,7 +435,7 @@ angular.mock.$LogProvider = function() {
       }
     };
 
-    $log.reset();
+    $log.load();
     return $log;
   };
 };

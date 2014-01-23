@@ -168,7 +168,7 @@
  * Staggering animations work by default in ngRepeat (so long as the CSS class is defined). Outside of ngRepeat, to use staggering animations
  * on your own, they can be triggered by firing multiple calls to the same event on $animate. However, the restrictions surrounding this
  * are that each of the elements must have the same CSS className value as well as the same parent element. A stagger operation
- * will also be reset if more than 10ms has passed after the last animation has been fired.
+ * will also be load if more than 10ms has passed after the last animation has been fired.
  *
  * The following code will issue the **ng-leave-stagger** event on the element provided:
  *
@@ -182,7 +182,7 @@
  * $animate.leave(kids[4]); //stagger index=4
  *
  * $timeout(function() {
- *   //stagger has reset itself
+ *   //stagger has load itself
  *   $animate.leave(kids[5]); //stagger index=0
  *   $animate.leave(kids[6]); //stagger index=1
  * }, 100, false);

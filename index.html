@@ -2,25 +2,21 @@
 <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.css">
     <script src="js/vendor/angular.js"></script>
     <script src="js/main.js"></script>
 </head>
 <body ng-app="myApp">
 
-<div class="root">
-    <h2>{{ 'Välkommen' + ' ' + 'hit!' + 1 }}</h2>
-
-    <div>
-        {{ 2+2 }}
-
-        {{ [2,1].sort() }}
-
-    </div>
-
-    <div ng-include src="'myTemplate.html'"></div>
+<div class="root" ng-controller="myController">
 
 
-</div>
+    <!--<my-element></my-element>-->
+
+    <div my-attribute="incCount()">hej hej</div>
+
+    {{ count }}
 
 </div>
 

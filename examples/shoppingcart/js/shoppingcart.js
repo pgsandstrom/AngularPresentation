@@ -2,6 +2,7 @@ var shoppingcartApp = angular.module('shoppingcartApp', ['ui.bootstrap']);
 
 shoppingcartApp.controller('shoppingcartController', function FirstCtrl($scope, $http) {
 
+    //server-anrop:
     $scope.getProducts = function () {
         $http.get('http://localhost:8080/products').success(function (data) {
             $scope.products = data;
@@ -12,7 +13,7 @@ shoppingcartApp.controller('shoppingcartController', function FirstCtrl($scope, 
 
     $scope.buy = function (id) {
         $http.post('http://localhost:8080/cart/store/' + id).success(function () {
-            $scope.updateTotal();
+            $scope.updateTotalPrice();
             $scope.updateCart();
             $scope.addAlert("Lagt till id " + id, 'success');
         });
@@ -20,13 +21,13 @@ shoppingcartApp.controller('shoppingcartController', function FirstCtrl($scope, 
 
     $scope.remove = function (id) {
         $http.post('http://localhost:8080/cart/remove/' + id).success(function () {
-            $scope.updateTotal();
+            $scope.updateTotalPrice();
             $scope.updateCart();
             $scope.addAlert("Tagit bort id " + id, 'danger');
         });
     };
 
-    $scope.updateTotal = function () {
+    $scope.updateTotalPrice = function () {
         $http.post('http://localhost:8080/cart/total').success(function (data) {
             $scope.total = data.totalPrice;
         });
@@ -38,6 +39,7 @@ shoppingcartApp.controller('shoppingcartController', function FirstCtrl($scope, 
         });
     };
 
+    //alerts:
     $scope.addAlert = function(msg, type) {
         $scope.clearAlerts();
         $scope.alerts.push({msg: msg, type: type});
@@ -53,7 +55,7 @@ shoppingcartApp.controller('shoppingcartController', function FirstCtrl($scope, 
 
     //init all data:
     $scope.getProducts();
-    $scope.updateTotal();
+    $scope.updateTotalPrice();
     $scope.updateCart();
     $scope.alerts = [];
 

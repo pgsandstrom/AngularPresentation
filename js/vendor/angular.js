@@ -773,7 +773,7 @@ function isLeafNode (node) {
  E-mail: <input type="email" ng-model="user.email" /><br />
  Gender: <input type="radio" ng-model="user.gender" value="male" />male
  <input type="radio" ng-model="user.gender" value="female" />female<br />
- <button ng-click="reset()">RESET</button>
+ <button ng-click="load()">RESET</button>
  <button ng-click="update(user)">SAVE</button>
  </form>
  <pre>form = {{user | json}}</pre>
@@ -789,12 +789,12 @@ function isLeafNode (node) {
       $scope.master= angular.copy(user);
     };
 
-    $scope.reset = function() {
+    $scope.load = function() {
       // Example with 2 arguments
       angular.copy($scope.master, $scope.user);
     };
 
-    $scope.reset();
+    $scope.load();
   }
  </script>
  </doc:source>
@@ -1333,7 +1333,7 @@ function snake_case(name, separator){
 function bindJQuery() {
   // bind to jQuery if present;
   jQuery = window.jQuery;
-  // reset to jQuery or default to us.
+  // load to jQuery or default to us.
   if (jQuery) {
     jqLite = jQuery;
     extend(jQuery.fn, {
@@ -6123,7 +6123,7 @@ function $CompileProvider($provide, $$sanitizeUriProvider) {
                   compare = function(a,b) { return a === b; };
                 }
                 parentSet = parentGet.assign || function() {
-                  // reset the change, or we will throw this exception on every $digest
+                  // load the change, or we will throw this exception on every $digest
                   lastValue = isolateScope[scopeName] = parentGet(scope);
                   throw $compileMinErr('nonassign',
                       "Expression '{0}' used with directive '{1}' is non-assignable!",
@@ -6516,7 +6516,7 @@ function $CompileProvider($provide, $$sanitizeUriProvider) {
                 // register any observers
                 if (!interpolateFn) return;
 
-                // TODO(i): this should likely be attr.$set(name, iterpolateFn(scope) so that we reset the
+                // TODO(i): this should likely be attr.$set(name, iterpolateFn(scope) so that we load the
                 // actual attr value
                 attr[name] = interpolateFn(scope);
                 ($$observers[name] || ($$observers[name] = [])).$$inter = true;
@@ -12408,7 +12408,7 @@ function adjustMatcher(matcher) {
   } else if (isRegExp(matcher)) {
     // The only other type of matcher allowed is a Regexp.
     // Match entire URL / disallow partial matches.
-    // Flags are reset (i.e. no global, ignoreCase or multiline)
+    // Flags are load (i.e. no global, ignoreCase or multiline)
     return new RegExp('^' + matcher.source + '$');
   } else {
     throw $sceMinErr('imatcher',
@@ -14843,7 +14843,7 @@ var htmlAnchorDirective = valueFn({
         attr.$set('href', '');
       }
 
-      // add a comment node to anchors to workaround IE bug that causes element content to be reset
+      // add a comment node to anchors to workaround IE bug that causes element content to be load
       // to new attribute content if attribute is updated with value containing @ and element also
       // contains value with @
       // see issue #1949
@@ -15999,7 +15999,7 @@ var inputType = {
   'hidden': noop,
   'button': noop,
   'submit': noop,
-  'reset': noop
+  "load": noop
 };
 
 // A helper function to call $setValidity and return the value / undefined,
