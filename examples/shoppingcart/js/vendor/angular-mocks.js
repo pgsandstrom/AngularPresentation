@@ -1,5 +1,5 @@
 /**
- * @license AngularJS v1.2.8
+ * @license AngularJS v1.2.9
  * (c) 2010-2014 Google, Inc. http://angularjs.org
  * License: MIT
  */
@@ -248,7 +248,7 @@ angular.mock.$ExceptionHandlerProvider = function() {
    *   - `log`: Sometimes it is desirable to test that an error is thrown, for this case the `log`
    *            mode stores an array of errors in `$exceptionHandler.errors`, to allow later
    *            assertion of them. See {@link ngMock.$log#assertEmpty assertEmpty()} and
-   *            {@link ngMock.$log#load load()}
+   *            {@link ngMock.$log#reset reset()}
    */
   this.mode = function(mode) {
     switch(mode) {
@@ -324,13 +324,13 @@ angular.mock.$LogProvider = function() {
 
     /**
      * @ngdoc method
-     * @name ngMock.$log#load
+     * @name ngMock.$log#reset
      * @methodOf ngMock.$log
      *
      * @description
      * Reset all of the logging arrays to empty.
      */
-    $log.load = function () {
+    $log.reset = function () {
       /**
        * @ngdoc property
        * @name ngMock.$log#log.logs
@@ -435,7 +435,7 @@ angular.mock.$LogProvider = function() {
       }
     };
 
-    $log.load();
+    $log.reset();
     return $log;
   };
 };
@@ -762,6 +762,36 @@ angular.mock.TzDate = function (offset, timestamp) {
 //make "tzDateInstance instanceof Date" return true
 angular.mock.TzDate.prototype = Date.prototype;
 /* jshint +W101 */
+
+// TODO(matias): remove this IMMEDIATELY once we can properly detect the
+// presence of a registered module
+var animateLoaded;
+try {
+  angular.module('ngAnimate');
+  animateLoaded = true;
+} catch(e) {}
+
+if(animateLoaded) {
+  angular.module('ngAnimate').config(['$provide', function($provide) {
+    var reflowQueue = [];
+    $provide.value('$$animateReflow', function(fn) {
+      reflowQueue.push(fn);
+      return angular.noop;
+    });
+    $provide.decorator('$animate', function($delegate) {
+      $delegate.triggerReflow = function() {
+        if(reflowQueue.length === 0) {
+          throw new Error('No animation reflows present');
+        }
+        angular.forEach(reflowQueue, function(fn) {
+          fn();
+        });
+        reflowQueue = [];
+      };
+      return $delegate;
+    });
+  }]);
+}
 
 angular.mock.animate = angular.module('mock.animate', ['ng'])
 
@@ -1918,7 +1948,6 @@ angular.mock.clearDataCache = function() {
     }
   }
 };
-
 
 
 if(window.jasmine || window.mocha) {
