@@ -32,7 +32,7 @@
     <file path="/dlTab1.html" changelist="272c36c1-a70b-4c36-90ab-afb5c7d5099f" time="1390662729958" ignored="false" />
     <file path="/deepLinking.html" changelist="272c36c1-a70b-4c36-90ab-afb5c7d5099f" time="1390663253981" ignored="false" />
     <file path="/deepLinking.js" changelist="272c36c1-a70b-4c36-90ab-afb5c7d5099f" time="1390663015404" ignored="false" />
-    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="272c36c1-a70b-4c36-90ab-afb5c7d5099f" time="1390663928412" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="272c36c1-a70b-4c36-90ab-afb5c7d5099f" time="1390664017212" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +105,7 @@
       <file leaf-file-name="deepLinking.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/examples/deeplinking/js/deepLinking.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="40" selection-start="544" selection-end="544" vertical-scroll-proportion="0.23880596">
+            <state line="2" column="0" selection-start="60" selection-end="60" vertical-scroll-proportion="0.039035592">
               <folding />
             </state>
           </provider>
@@ -584,7 +584,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/examples/deeplinking/js/deepLinking.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="40" selection-start="544" selection-end="544" vertical-scroll-proportion="0.23880596">
+        <state line="2" column="0" selection-start="60" selection-end="60" vertical-scroll-proportion="0.039035592">
           <folding />
         </state>
       </provider>
