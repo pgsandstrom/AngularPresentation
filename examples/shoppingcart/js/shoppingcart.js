@@ -2,6 +2,8 @@ var shoppingcartApp = angular.module('shoppingcartApp', ['ui.bootstrap']);
 
 shoppingcartApp.controller('shoppingcartController', function FirstCtrl($scope, $http) {
 
+    $scope.alerts = [];
+
     //server-anrop:
     $scope.getProducts = function () {
         $http.get('http://localhost:8080/products').success(function (data) {
@@ -40,23 +42,24 @@ shoppingcartApp.controller('shoppingcartController', function FirstCtrl($scope, 
     };
 
     //alerts:
-    $scope.addAlert = function(msg, type) {
+    $scope.addAlert = function (msg, type) {
         $scope.clearAlerts();
         $scope.alerts.push({msg: msg, type: type});
     };
 
-    $scope.closeAlert = function(index) {
+    $scope.closeAlert = function (index) {
         $scope.alerts.splice(index, 1);
     };
 
-    $scope.clearAlerts = function() {
+    $scope.clearAlerts = function () {
         $scope.alerts = [];
     };
 
-    //init all data:
-    $scope.getProducts();
-    $scope.updateTotalPrice();
-    $scope.updateCart();
-    $scope.alerts = [];
+    $scope.init = function () {
+        $scope.getProducts();
+        $scope.updateTotalPrice();
+        $scope.updateCart();
+    };
+
 
 });

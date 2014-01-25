@@ -6,11 +6,11 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/bootstrap-theme.css" rel="stylesheet">
-
-
 </head>
+
 <body ng-app="shoppingcartApp">
-<div ng-controller="shoppingcartController">
+<div ng-controller="shoppingcartController" ng-init="init()">
+
 
     <div class="container">
         <div class="row">
@@ -34,7 +34,7 @@
                     </thead>
 
                     <tbody>
-                    <tr ng-repeat="cartItem in cart">
+                    <tr ng-repeat="cartItem in cart | orderBy:'product.name'">
                         <td>{{cartItem.product.name}}</td>
                         <td>{{cartItem.qty}}</td>
                         <td>{{cartItem.linePrice}}$</td>
@@ -67,7 +67,7 @@
                     </thead>
                     <tbody>
 
-                    <tr ng-repeat="product in products">
+                    <tr ng-repeat="product in products | orderBy:'name'">
                         <td>{{product.name}}</td>
                         <td>{{product.price}}$</td>
                         <td>
@@ -87,9 +87,5 @@
 <script src="js/vendor/angular.js"></script>
 <script src="js/vendor/ui-bootstrap-tpls-0.10.0.js"></script>
 <script src="js/shoppingcart.js"></script>
-<script>
-    // Beroende på vilket script som laddats in...
-    window.ShoppingCart && window.ShoppingCart.init();
-</script>
 
 </html>

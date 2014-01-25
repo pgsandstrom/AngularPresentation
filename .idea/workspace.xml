@@ -4,13 +4,13 @@
     <list default="true" id="272c36c1-a70b-4c36-90ab-afb5c7d5099f" name="Default" comment="" />
     <ignored path="AngularPresentation.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/index.html" changelist="272c36c1-a70b-4c36-90ab-afb5c7d5099f" time="1390501201493" ignored="false" />
+    <file path="/index.html" changelist="272c36c1-a70b-4c36-90ab-afb5c7d5099f" time="1390658820256" ignored="false" />
     <file path="$PROJECT_DIR$/../AngularTest/index.html" changelist="272c36c1-a70b-4c36-90ab-afb5c7d5099f" time="1390496189112" ignored="false" />
     <file path="/main.css" changelist="272c36c1-a70b-4c36-90ab-afb5c7d5099f" time="1390145329655" ignored="false" />
-    <file path="/a.dummy" changelist="272c36c1-a70b-4c36-90ab-afb5c7d5099f" time="1390496326139" ignored="false" />
+    <file path="/a.dummy" changelist="272c36c1-a70b-4c36-90ab-afb5c7d5099f" time="1390650721442" ignored="false" />
     <file path="$PROJECT_DIR$/../AngularPresentation2/views/layout.jade" changelist="272c36c1-a70b-4c36-90ab-afb5c7d5099f" time="1389899312503" ignored="false" />
     <file path="$PROJECT_DIR$/../AngularPresentation2/app.js" changelist="272c36c1-a70b-4c36-90ab-afb5c7d5099f" time="1389899424618" ignored="false" />
-    <file path="/shoppingcart.js" changelist="272c36c1-a70b-4c36-90ab-afb5c7d5099f" time="1390510015149" ignored="false" />
+    <file path="/shoppingcart.js" changelist="272c36c1-a70b-4c36-90ab-afb5c7d5099f" time="1390654900865" ignored="false" />
     <file path="/myTemplate.html" changelist="272c36c1-a70b-4c36-90ab-afb5c7d5099f" time="1390145144674" ignored="false" />
     <file path="/Dummy.txt" changelist="272c36c1-a70b-4c36-90ab-afb5c7d5099f" time="1390509836021" ignored="false" />
     <file path="$PROJECT_DIR$/../PloxWorld/index.html" changelist="272c36c1-a70b-4c36-90ab-afb5c7d5099f" time="1390145406165" ignored="false" />
@@ -28,7 +28,11 @@
     <file path="$PROJECT_DIR$/js/vendor/angular.js" changelist="272c36c1-a70b-4c36-90ab-afb5c7d5099f" time="1390514713947" ignored="false" />
     <file path="$PROJECT_DIR$/js/vendor/angular-mocks.js" changelist="272c36c1-a70b-4c36-90ab-afb5c7d5099f" time="1390514713947" ignored="false" />
     <file path="$PROJECT_DIR$/../JDD-jQuery/js/shoppingcart/shoppingcart-refactored.js" changelist="272c36c1-a70b-4c36-90ab-afb5c7d5099f" time="1390509019420" ignored="false" />
-    <file path="/shoppingcart.tests.js" changelist="272c36c1-a70b-4c36-90ab-afb5c7d5099f" time="1390515139395" ignored="false" />
+    <file path="/shoppingcart.tests.js" changelist="272c36c1-a70b-4c36-90ab-afb5c7d5099f" time="1390658735544" ignored="false" />
+    <file path="/dlTab1.html" changelist="272c36c1-a70b-4c36-90ab-afb5c7d5099f" time="1390662729958" ignored="false" />
+    <file path="/deepLinking.html" changelist="272c36c1-a70b-4c36-90ab-afb5c7d5099f" time="1390663253981" ignored="false" />
+    <file path="/deepLinking.js" changelist="272c36c1-a70b-4c36-90ab-afb5c7d5099f" time="1390663015404" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="272c36c1-a70b-4c36-90ab-afb5c7d5099f" time="1390663928412" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,29 +94,18 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/examples/shoppingcart/index.html">
+        <entry file="file://$PROJECT_DIR$/examples/deeplinking/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="29" selection-start="296" selection-end="311" vertical-scroll-proportion="-7.1923075">
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="shoppingcart.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/examples/shoppingcart/js/shoppingcart.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="50" selection-start="104" selection-end="126" vertical-scroll-proportion="0.0">
+            <state line="3" column="33" selection-start="83" selection-end="83" vertical-scroll-proportion="-1.9615384">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="shoppingcart.tests.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/examples/shoppingcart/js/shoppingcart.tests.js">
+      <file leaf-file-name="deepLinking.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/examples/deeplinking/js/deepLinking.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="41" selection-start="884" selection-end="884" vertical-scroll-proportion="0.39766082">
+            <state line="20" column="40" selection-start="544" selection-end="544" vertical-scroll-proportion="0.23880596">
               <folding />
             </state>
           </provider>
@@ -128,29 +121,30 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/css/main.css" />
-        <option value="$PROJECT_DIR$/../hakimel-reveal.js-8b8cc60/index.html" />
-        <option value="$PROJECT_DIR$/js/data.js" />
-        <option value="$PROJECT_DIR$/js/mainDone.js" />
-        <option value="$PROJECT_DIR$/indexDone.html" />
-        <option value="$PROJECT_DIR$/js/directiveUgly.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/js/directiveCool.js" />
         <option value="$PROJECT_DIR$/css/prettify.css" />
         <option value="$PROJECT_DIR$/css/docs.css" />
         <option value="$PROJECT_DIR$/js/form.js" />
         <option value="$PROJECT_DIR$/form.html" />
-        <option value="$PROJECT_DIR$/examples/shoppingcart/js/shoppingcart.js" />
         <option value="$PROJECT_DIR$/examples/shoppingcart/js/vendor/angular-mocks.js" />
+        <option value="$PROJECT_DIR$/examples/shoppingcart/js/shoppingcart.js" />
         <option value="$PROJECT_DIR$/examples/shoppingcart/js/shoppingcart.tests.js" />
+        <option value="$PROJECT_DIR$/examples/shoppingcart/index.html" />
+        <option value="$PROJECT_DIR$/dlTab1.html" />
+        <option value="$PROJECT_DIR$/dlTab2.html" />
+        <option value="$PROJECT_DIR$/deepLinking.html" />
+        <option value="$PROJECT_DIR$/js/deepLinking.js" />
+        <option value="$PROJECT_DIR$/examples/deeplinking/index.html" />
+        <option value="$PROJECT_DIR$/examples/deeplinking/js/deepLinking.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="663" />
-    <option name="width" value="1257" />
-    <option name="height" value="1040" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -200,8 +194,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -247,10 +239,6 @@
               <option name="myItemId" value="examples" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shoppingcart" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -266,37 +254,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="shoppingcart" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AngularPresentation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AngularPresentation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="examples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shoppingcart" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
+              <option name="myItemId" value="deeplinking" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -316,6 +274,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -330,21 +290,22 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
-    <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\work\workspace\AngularPresentation\examples\deeplinking" />
+      <recent name="C:\work\workspace\AngularPresentation\js" />
       <recent name="C:\work\workspaces\privat\AngularPresentation\js" />
       <recent name="C:\work\workspaces\privat\AngularPresentation" />
       <recent name="C:\work\workspace\AngularPresentation\examples\shoppingcart\css" />
-      <recent name="C:\work\workspace\AngularPresentation\examples\shoppingcart\js\vendor" />
-      <recent name="C:\work\workspaces\privat\AngularPresentation\examples\shop-jquery\js" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\work\workspace\AngularPresentation\examples\deeplinking" />
       <recent name="C:\work\workspace\AngularPresentation\examples\shoppingcart\js\vendor" />
       <recent name="C:\work\workspaces\privat\AngularPresentation\examples\shop-jquery\js\vendor" />
       <recent name="C:\work\workspaces\privat\AngularPresentation\js\vendor" />
@@ -387,6 +348,13 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
+      <method />
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -408,13 +376,6 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
-      <JSDebuggerConfigurationSettings>
-        <option name="engineId" value="embedded" />
-        <option name="fileUrl" />
-      </JSDebuggerConfigurationSettings>
-      <method />
-    </configuration>
     <list size="0" />
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -431,13 +392,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="663" y="0" width="1257" height="1040" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3277592" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2497332" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -448,11 +410,10 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23179917" sideWeight="0.6719637" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23159018" sideWeight="0.6722408" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3280363" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -522,11 +483,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js/data.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="246" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/myTemplate.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="16" selection-start="70" selection-end="70" vertical-scroll-proportion="0.020070838">
@@ -534,52 +490,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/indexDone.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="17" selection-start="568" selection-end="568" vertical-scroll-proportion="-17.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/mainDone.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="319" selection-end="583" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/directiveUgly.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="187" selection-end="454" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/directiveCool.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="3" selection-start="313" selection-end="313" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="34" selection-start="0" selection-end="508" vertical-scroll-proportion="-10.461538">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="31" selection-start="339" selection-end="339" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/form.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="330" selection-end="330" vertical-scroll-proportion="0.11821472">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/form.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="33" selection-start="188" selection-end="188" vertical-scroll-proportion="0.11929824" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/examples/shoppingcart/js/shoppingcart_old.js">
@@ -596,32 +509,82 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/shoppingcart/js/vendor/angular.js">
+    <entry file="file://$PROJECT_DIR$/examples/shoppingcart/js/shoppingcart.tests.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="2" selection-start="300" selection-end="300" vertical-scroll-proportion="0.24228029">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/shoppingcart/js/shoppingcart.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="50" selection-start="104" selection-end="126" vertical-scroll-proportion="0.0">
+        <state line="37" column="97" selection-start="1387" selection-end="1387" vertical-scroll-proportion="0.5706085">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/examples/shoppingcart/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="29" selection-start="296" selection-end="311" vertical-scroll-proportion="-7.1923075">
+        <state line="10" column="18" selection-start="0" selection-end="2968" vertical-scroll-proportion="-6.5384617">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="0" selection-start="0" selection-end="508" vertical-scroll-proportion="0.34201184">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/shoppingcart/js/shoppingcart.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="22" selection-start="222" selection-end="233" vertical-scroll-proportion="0.13662457">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/deeplinking/tab2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="8" selection-start="14" selection-end="14" vertical-scroll-proportion="0.020118343">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/deeplinking/tab1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="8" selection-start="0" selection-end="21" vertical-scroll-proportion="0.020118343">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/shoppingcart/js/vendor/angular.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="33" selection-start="376" selection-end="376" vertical-scroll-proportion="0.2773893">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/deeplinking/js/vendor/angular.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4855" column="2" selection-start="153855" selection-end="153855" vertical-scroll-proportion="0.53496504">
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1390650161819" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1390650161819" expanded="true" signature="-1:-1" placeholder="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/shoppingcart/js/shoppingcart.tests.js">
+    <entry file="file://$PROJECT_DIR$/examples/deeplinking/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="41" selection-start="884" selection-end="884" vertical-scroll-proportion="0.39766082">
+        <state line="12" column="23" selection-start="169" selection-end="169" vertical-scroll-proportion="0.23421355">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/deeplinking/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="33" selection-start="83" selection-end="83" vertical-scroll-proportion="-1.9615384">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/deeplinking/js/deepLinking.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="40" selection-start="544" selection-end="544" vertical-scroll-proportion="0.23880596">
           <folding />
         </state>
       </provider>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.css">
+    <script src="js/vendor/angular.js"></script>
+    <script src="js/vendor/angular-route.js"></script>
+    <script src="js/deepLinking.js"></script>
+</head>
+<body ng-app="deepLinkingApp">
+
+<div class="root" ng-controller="deepLinkingCtrl">
+
+
+    Välj tab:
+    <button ng-click="selectTab1()">tab 1</button>
+    <button ng-click="selectTab2()">tab 2</button>
+
+    <div ng-view></div>
+
+</div>
+
+</body>
+</html>
