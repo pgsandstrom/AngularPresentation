@@ -1,0 +1,21 @@
+body {
+    font-size: 20px;
+    font-family: "Open Sans", serif;
+}
+
+h2 {
+    font-family: "Abel", Arial, sans-serif;
+}
+
+.root {
+    width: 100%;
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50px;
+    right: 0;
+
+    margin-left: auto;
+    margin-right: auto;
+}

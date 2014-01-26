@@ -1,8 +1,8 @@
-app.directive( 'myDirective', function () {
+app.directive('myDirective', function () {
     return {
         scope: true,
-        templateUrl:'myTemplate.html',
-        link: function ( scope, element, attrs ) {
+        template: '<a class="btn" ng-class="{active: on}" ng-click="toggle()">Toggle me!</a>',
+        link: function (scope) {
             scope.on = false;
 
             scope.toggle = function () {

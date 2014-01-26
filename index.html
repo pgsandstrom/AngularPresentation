@@ -9,15 +9,13 @@
 </head>
 <body ng-app="myApp">
 
-<div class="root" ng-controller="myController">
 
 
-    <!--<my-element></my-element>-->
-
-    <div my-attribute="incCount()">hej hej</div>
-
-    {{ count }}
-
+<div class="root" >
+    utanför controller: <input type="text" ng-model="data"/>
+    <div ng-controller="myController">
+        <input type="text" ng-model="data"/>
+    </div>
 </div>
 
 </body>
