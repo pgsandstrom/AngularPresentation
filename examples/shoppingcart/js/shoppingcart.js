@@ -8,23 +8,21 @@ shoppingcartApp.controller('shoppingcartController', function FirstCtrl($scope, 
     $scope.getProducts = function () {
         $http.get('http://localhost:8080/products').success(function (data) {
             $scope.products = data;
-        }).error(function (data, status, headers, config) {
-                console.log("error: " + status);
-            });
+        });
     };
 
     $scope.buy = function (id) {
         $http.post('http://localhost:8080/cart/store/' + id).success(function () {
-            $scope.updateTotalPrice();
             $scope.updateCart();
+            $scope.updateTotalPrice();
             $scope.addAlert("Lagt till id " + id, 'success');
         });
     };
 
     $scope.remove = function (id) {
         $http.post('http://localhost:8080/cart/remove/' + id).success(function () {
-            $scope.updateTotalPrice();
             $scope.updateCart();
+            $scope.updateTotalPrice();
             $scope.addAlert("Tagit bort id " + id, 'danger');
         });
     };
@@ -60,6 +58,5 @@ shoppingcartApp.controller('shoppingcartController', function FirstCtrl($scope, 
         $scope.updateTotalPrice();
         $scope.updateCart();
     };
-
 
 });

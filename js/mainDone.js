@@ -1,5 +1,11 @@
 var myApp = angular.module("myApp", []);
 
+myApp.filter('myFilter', function () {
+    return function (data) {
+        return data + "!!";
+    };
+});
+
 myApp.directive('myElement', function() {
     return {
         restrict: "E",
@@ -59,5 +65,5 @@ myApp.controller("myController", function($scope) {
 
     $scope.myAlert = function() {
         alert("my alert");
-    }
+    };
 });

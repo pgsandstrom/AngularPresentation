@@ -1,0 +1,10 @@
+
+Generella länkar:
+	http://docs.angularjs.org/api
+	https://github.com/angular/angular.js/wiki
+	https://egghead.io/lessons
+	
+Specifika frågor:
+	https://github.com/angular/angular.js/wiki/Understanding-Scopes
+	http://stackoverflow.com/questions/14994391/how-do-i-think-in-angularjs-if-i-have-a-jquery-background
+	http://angular-tips.com/blog/2013/08/watch-how-the-apply-runs-a-digest/
